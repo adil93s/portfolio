@@ -30,16 +30,6 @@ class About extends React.Component {
         tous genres.
       </p>
     );
-    const three = (
-      <p>
-        <b>Tu souhaites discuter ?</b> Envoie moi un mail à{" "}
-        <a href="mailto:gazi.jarin@mail.utoronto.ca">
-          chetouani.adil93@gmail.com
-        </a>{" "}
-        .
-      </p>
-    );
-    const desc_items = [one, two];
 
     const tech_stack = [
       "Java",
@@ -49,8 +39,6 @@ class About extends React.Component {
       "Node.js",
       "HTML & CSS",
     ];
-
-    const tech_items = tech_stack.map((stack) => <li>{stack}</li>);
 
     return (
       <div id="about">
