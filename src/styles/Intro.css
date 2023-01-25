@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=NTR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 #intro {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding-left: 15%;
-  padding-top: 10%;
+  padding-top: 25%;
   min-height: 100vh;
 }
 
@@ -19,11 +22,13 @@
 }
 
 .intro-title {
+  font-family: "NTR", sans-serif;
   font-size: 86px;
 }
 .intro-name {
   color: var(--green-bright);
-  font-weight: bold;
+  font-family: "NTR", sans-serif;
+  font-weight: bold !important;
   font-size: 86px;
 }
 
@@ -31,15 +36,16 @@
   margin-top: -36px;
   font-family: "NTR", sans-serif;
   color: var(--slate);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 48px;
 }
 
 .intro-desc {
   color: var(--slate);
-  font-family: "NTR", sans-serif;
-  font-size: 22px;
-  max-width: 40%;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  max-width: 50%;
+  font-weight: 800;
   text-align: justify;
   padding-bottom: 50px;
 }

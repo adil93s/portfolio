@@ -25,3 +25,12 @@ code {
   --green-bright: #64ffda;
   --green-tint: rgba(100, 255, 218, 0.1);
 }
+
+a {
+  text-decoration: none !important;
+  color: var(--green-bright) !important;
+}
+
+a:hover {
+  color: var(--lightest-slate) !important;
+}
