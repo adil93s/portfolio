@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=NTR&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 #intro {
   display: flex;
@@ -34,9 +34,9 @@
 
 .intro-subtitle {
   margin-top: -36px;
-  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--slate);
-  font-weight: 400;
+  font-weight: 600;
   font-size: 48px;
 }
 
@@ -107,6 +107,5 @@ b {
   .intro-contact {
     font-size: 16px;
     align-self: center;
-    margin-left: 30%;
   }
 }

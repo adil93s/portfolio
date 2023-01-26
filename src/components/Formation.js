@@ -3,7 +3,7 @@ import List from "./List";
 import "../styles/Formation.css";
 import FadeInSection from "./FadeInSection";
 
-class Experience extends React.Component {
+class Formation extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -19,7 +19,7 @@ class Experience extends React.Component {
   }
   render() {
     return (
-      <div id="experience">
+      <div id="formation">
         <FadeInSection>
           <div className="section-header ">
             <span className="section-title">/ training</span>
@@ -31,4 +31,4 @@ class Experience extends React.Component {
   }
 }
 
-export default Experience;
+export default Formation;

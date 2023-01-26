@@ -87,10 +87,6 @@
     font-size: 17px;
   }
 
-  .about-image img {
-    display: none;
-  }
-
   .about-content {
     display: unset;
   }

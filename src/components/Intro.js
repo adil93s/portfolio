@@ -1,6 +1,7 @@
 import React from "react";
 import Typist from "react-typist";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
+import FadeInSection from "./FadeInSection";
 import "../styles/Intro.css";
 
 class Intro extends React.Component {
@@ -29,17 +30,22 @@ class Intro extends React.Component {
             {" here."}
           </span>
         </Typist>
-        <div className="intro-subtitle">Je cree des choses parfois.</div>
-        <div className="intro-desc">
-          Je suis à la recherche d'un stage ou d'une alternance en informatique.
-          Depuis petit, je porte un grand interet à l'informatique, un domaine
-          où l'on peut mettre en pratique le travail d'équipe, la cohésion mais
-          également l'autonomie.
-        </div>
-        <a href="mailto:chetouani.adil93@gmail.com" className="intro-contact">
-          <EmailRoundedIcon></EmailRoundedIcon>
-          {"  " + "Contactez-moi"}
-        </a>
+        <FadeInSection delay={`200ms`}>
+          <div className="intro-subtitle">Web Developer.</div>
+        </FadeInSection>
+        <FadeInSection delay={`400ms`}>
+          <div className="intro-desc">
+            Je suis un étudiant en informatique spécialisé dans la réalisation
+            d'applications. Je suis à la recherche d'un stage ou d'une
+            alternance.
+          </div>
+        </FadeInSection>
+        <FadeInSection delay={`600ms`}>
+          <a href="mailto:chetouani.adil93@gmail.com" className="intro-contact">
+            <EmailRoundedIcon></EmailRoundedIcon>
+            {"  " + "Contactez-moi"}
+          </a>
+        </FadeInSection>
       </div>
     );
   }

@@ -19,7 +19,8 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        Je suis étudiant en <b>2ème de BUT informatique</b> à l'
+        Je suis étudiant en <b>2ème de BUT informatique</b> spécialisé en
+        réalisation d'applications à l'
         <a href="https://www.iut.univ-paris8.fr//">IUT de Montreuil</a>. En
         parallèle, je travaille dans différents projets personnels.
       </p>

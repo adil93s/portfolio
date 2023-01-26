@@ -64,7 +64,27 @@
     padding-left: unset;
     padding-right: unset;
   }
-  .carousel {
-    display: none;
+  .carousel-inner {
+    height: 300px;
+  }
+
+  .carousel img {
+    height: 100%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 28px;
+  }
+
+  .carousel-caption p {
+    font-size: 12px;
+  }
+
+  .carousel-caption p.techStack {
+    font-size: 10px;
+  }
+  .carousel-caption {
+    max-width: 400px !important;
+    margin-right: 20% !important;
   }
 }
